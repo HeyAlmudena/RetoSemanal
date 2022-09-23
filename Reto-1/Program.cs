@@ -1,47 +1,42 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-/*
+﻿/*
  * Escribe una función que reciba dos palabras (String) y retorne verdadero o falso (Bool) según sean o no anagramas.
  * - Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial.
  * - NO hace falta comprobar que ambas palabras existan.
  * - Dos palabras exactamente iguales no son anagrama.
  */
 
-string myFirstWord;
-string mySecondWord;
+#region INTRODUCCIÓN DE VARIABLES
+string palabraUno;
+string palabraDos;
 
 Console.WriteLine("Escribe la primera palabra: ");
-myFirstWord = Console.ReadLine();
+palabraUno = Console.ReadLine().ToLower();
 
 Console.WriteLine("Escribe la segunda palabra: ");
-mySecondWord = Console.ReadLine();
+palabraDos = Console.ReadLine().ToLower();
+#endregion
 
-Anagrama(myFirstWord, mySecondWord);
+Anagrama(palabraUno, palabraDos);
 
-static bool Anagrama(string firstWord, string secondWord)
+static void Anagrama(string palabraUno, string palabraDos)
 {
-    int counter = 0;
+    char [] primeraPalabra = palabraUno.ToCharArray();
+    char [] segundaPalabra = palabraDos.ToCharArray();
 
-    foreach (char word in firstWord)
+    Array.Sort(primeraPalabra);
+    Array.Sort(segundaPalabra);
+
+    string primeraPalabraString = new string (primeraPalabra);
+    string segundaPalabraString = new string(segundaPalabra);
+
+    if (palabraUno.Length != palabraDos.Length || palabraUno == palabraDos || primeraPalabraString != segundaPalabraString)
     {
-        if (secondWord.Contains(word))
-        {
-            counter++;
-        }
-
-        else
-        {
-            Console.WriteLine("Esto no es un anagrama.");
-            return false;
-        }
+        Console.WriteLine("NO ES UN ANAGRAMA.");
     }
 
-    if (counter == firstWord.Length)
+    if (primeraPalabraString == segundaPalabraString)
     {
-        Console.WriteLine("Esto sí es un anagrama.");
+        Console.WriteLine("SÍ ES UN ANAGRAMA.");
     }
-
-    return true;
 }
 
