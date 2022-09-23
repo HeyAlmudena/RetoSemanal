@@ -33,12 +33,12 @@ public bool Anagrama(string firstWord, string secondWord)
             return false;
             break;
         }
+    }
 
-        if (counter == firstWord.Count)
-        {
-            Console.WriteLine("Esto sí es un palíndromo.");
-            return true;
-        }
+    if (counter == firstWord.Count)
+    {
+        Console.WriteLine("Esto sí es un palíndromo.");
+        return true;
     }
 }
 
