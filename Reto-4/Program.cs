@@ -6,34 +6,38 @@
  * - Imprime el cálculo del área de un polígono de cada tipo.
  */
 
-Console.WriteLine("Introduce un polígono: triángulo, cuadrado o rectángulo");
-string poligono = Console.ReadLine().ToLower();
+Triangle myTriangle = new Triangle();
+Rectangle myRectangle = new Rectangle();
+Square mySquare = new Square();
 
-Console.WriteLine("Introduce altura: ");
-int alturaPoligono = int.Parse(Console.ReadLine());
-Console.WriteLine("Introduce base: ");
-int basePoligono = int.Parse(Console.ReadLine());
+Console.WriteLine("El área del triángulo es: " + myTriangle.TriangleArea(baseTriangle: 20, heightTriangle: 20));
+Console.WriteLine("El área del rectángulo es: " + myRectangle.RectangleArea(baseRectangle: 20, heightRectangle: 20));
+Console.WriteLine("El área del cuadrado es: " + mySquare.SquareArea(baseSquare: 30, heightSquare: 30));
 
-int area = 0;
+class Triangle {
 
-AreaPoligono(poligono);
+    public double TriangleArea (double baseTriangle, double heightTriangle) {
 
-void AreaPoligono(string poligono)
-{  
-    if (poligono == "triángulo")
-    {
-        area = (basePoligono * alturaPoligono) / 2;
-        Console.WriteLine("El area del " + poligono + "es: " + area);
+        double areaTriangulo = (baseTriangle * heightTriangle) /2;
+        return areaTriangulo;
     }
+}
 
-    else if (poligono == "rectángulo" || poligono == "cuadrado")
+class Rectangle
+{
+    public double RectangleArea(double baseRectangle, double heightRectangle)
     {
-        area = (basePoligono * alturaPoligono);
-        Console.WriteLine("El area del " + poligono + "es: " + area);
+
+        double areaRectangle = (baseRectangle * heightRectangle);
+        return areaRectangle;
     }
+}
 
-    else
+class Square
+{
+    public double SquareArea(double baseSquare, double heightSquare)
     {
-        Console.WriteLine("El polígono es inválido");
+        double areaRectangle = (baseSquare * heightSquare);
+        return areaRectangle;
     }
 }
