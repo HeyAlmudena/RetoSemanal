@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reto-5", "Reto-5.csproj", "{DD6B12D2-AD1E-4807-BF11-309CA4E34344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6B12D2-AD1E-4807-BF11-309CA4E34344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6B12D2-AD1E-4807-BF11-309CA4E34344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6B12D2-AD1E-4807-BF11-309CA4E34344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6B12D2-AD1E-4807-BF11-309CA4E34344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F2A73AB-EDA4-4B55-A027-9E8C188A1CDA}
+	EndGlobalSection
+EndGlobal

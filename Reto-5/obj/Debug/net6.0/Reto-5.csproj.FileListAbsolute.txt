@@ -1,0 +1,15 @@
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\bin\Debug\net6.0\Reto-5.exe
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\bin\Debug\net6.0\Reto-5.deps.json
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\bin\Debug\net6.0\Reto-5.runtimeconfig.json
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\bin\Debug\net6.0\Reto-5.dll
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\bin\Debug\net6.0\Reto-5.pdb
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.csproj.AssemblyReference.cache
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.AssemblyInfoInputs.cache
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.AssemblyInfo.cs
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.csproj.CoreCompileInputs.cache
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.dll
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\refint\Reto-5.dll
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.pdb
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\Reto-5.genruntimeconfig.cache
+C:\Users\Almudena\Documents\GitHub\RetoSemanal\Reto-5\obj\Debug\net6.0\ref\Reto-5.dll
